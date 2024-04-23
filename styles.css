@@ -84,10 +84,6 @@ footer {
 
 /* header section */
 
-.logo {
-  cursor: pointer;
-}
-
 .search {
   flex: 1;
   display: flex;
