@@ -353,11 +353,19 @@ footer .wave#wave4 {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     grid-gap: 1.5em;
   }
+
+  .title-container span:last-child {
+    font-size: 70px;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .product-container {
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     grid-gap: 2em 15em;
+  }
+
+  .title-container span:last-child {
+    font-size: 50px;
   }
 }
